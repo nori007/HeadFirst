@@ -28,7 +28,7 @@ public abstract class Duck {
         quackBehavior.quack();
     }
 
-    public void swim(){
-        System.out.println("모든 오리는 물에 뜹니다.");
+    public void swim() {
+        System.out.println("모든 오리는 물에 뜹니다");
     }
 }

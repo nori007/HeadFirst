@@ -16,7 +16,7 @@ public class Monster extends User{
 
     @Override
     public void receiveUser(User user, float hp) {
-        System.out.println("HumanDisPlay");
+        System.out.println("MonsterDisPlay");
         System.out.println(user.name + ": " + hp);
         System.out.println("=========================");
     }

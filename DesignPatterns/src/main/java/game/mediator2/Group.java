@@ -6,11 +6,11 @@ import java.util.ArrayList;
 /**
  * Created by nori on 2014. 6. 24..
  */
-public class MediatorImpl implements Mediator {
+public class Group implements Mediator {
 
     private ArrayList<User> users;
 
-    public MediatorImpl(){
+    public Group(){
         this.users = new ArrayList();
     }
 

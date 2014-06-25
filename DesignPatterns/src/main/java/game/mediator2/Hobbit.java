@@ -3,9 +3,9 @@ package game.mediator2;
 /**
  * Created by nori on 2014. 6. 24..
  */
-public class Monster extends User{
+public class Hobbit extends User{
 
-    public Monster(Mediator mediator, String name, float hp) {
+    public Hobbit(Mediator mediator, String name, float hp) {
         super(mediator, name, hp);
     }
 

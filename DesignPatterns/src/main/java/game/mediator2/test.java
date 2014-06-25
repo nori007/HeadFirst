@@ -6,8 +6,8 @@ package game.mediator2;
 public class test {
 
     public static void main(String[] args) {
-        Mediator mediator = new MediatorImpl();
-        User monster = new Monster(mediator, "monster", 200);
+        Mediator mediator = new Group();
+        User monster = new Hobbit(mediator, "monster", 200);
         User elf = new Elf(mediator, "elf", 100);
         User human = new Human(mediator, "human", 120);
 

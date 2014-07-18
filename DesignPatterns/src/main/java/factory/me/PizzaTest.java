@@ -1,4 +1,4 @@
-package factory.book;
+package factory.me;
 
 /**
  * Created by nori on 2014. 7. 10..
@@ -10,7 +10,7 @@ public class PizzaTest {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
 
-        pizza = nyStore.orderPizza("pepperoni");
-        pizza = chicagoStore.orderPizza("pepperoni");
+        pizza = nyStore.orderPizza("cheese");
+        pizza = chicagoStore.orderPizza("cheese");
     }
 }

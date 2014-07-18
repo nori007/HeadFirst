@@ -1,7 +1,7 @@
-package factory.book;
+package factory.me;
 
 /**
  * Created by nori on 2014. 7. 15..
  */
-public interface Sauce {
+public interface Cheese {
 }
